@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Cursor local workspace (not part of submission)
+.cursor/
+
+# Root-level npm artifacts (app lives in scm-portal/)
+/node_modules/
+/package-lock.json
+
+# Secrets / local env (never commit)
+.env
+.env.local
+.env.*.local
